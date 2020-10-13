@@ -16,3 +16,7 @@ p {
     line-height: 2;
     letter-spacing: 1px;
 }
+
+#about {
+    text-align: center;
+}
