@@ -20,3 +20,15 @@ p {
 .section-text {
     text-align: center;
 }
+
+.time-line-item {
+    text-align: center;
+}
+
+.time {
+    font-size: 18px;
+}
+
+.title {
+    font-size: 22px;
+}
