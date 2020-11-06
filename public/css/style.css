@@ -1,3 +1,13 @@
+/* More intuitive box-sizing */
+html {
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
 html {
     scroll-behavior: smooth;
     font-family: "Open Sans", sans-serif;
@@ -31,4 +41,15 @@ p {
 
 .title {
     font-size: 22px;
+}
+
+#hero {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/hero-background.jpg);
+    background-size: 100vw;
+}
+
+#hero img {
+    border-radius: 90%;
 }
