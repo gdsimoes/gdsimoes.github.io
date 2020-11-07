@@ -47,7 +47,7 @@ p {
     width: 100vw;
     height: 100vh;
     background-image: url(../img/hero-background.jpg);
-    background-size: 100vw;
+    background-size: cover;
 }
 
 #hero img {
