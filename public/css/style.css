@@ -13,6 +13,15 @@ html {
     font-family: "Open Sans", sans-serif;
 }
 
+header {
+    display: flex;
+    background-color: rgb(199, 199, 199);
+}
+
+header a {
+    text-decoration: none;
+}
+
 img {
     max-width: 100%;
 }
