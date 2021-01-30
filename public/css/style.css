@@ -14,13 +14,15 @@ html {
 }
 
 nav {
-    background-color: rgb(190, 49, 68);
+    /* background-color: rgb(190, 49, 68); */
+    background-color: rgb(80, 100, 150);
     height: 50px;
     width: 100%;
     position: fixed;
     display: flex;
     justify-content: flex-end;
     align-items: stretch;
+    z-index: 1;
 }
 @media screen and (max-width: 400px) {
     nav {
@@ -71,10 +73,35 @@ p {
 #hero {
     width: 100vw;
     height: 100vh;
-    background-image: url(../img/hero-background.jpg);
+    /* this gradient makes the image a little darker */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+        url(../img/hero-background.jpg);
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    color: white;
+}
+
+#hero h1 {
+    font-size: 3.5rem;
+}
+
+#hero p {
+    font-size: 2.5rem;
 }
 
 #hero img {
     border-radius: 50%;
+    filter: brightness(80%);
+}
+@media screen and (max-width: 800px) {
+    #hero img {
+        margin-top: 50px;
+        width: 70%;
+    }
+    #hero {
+        flex-wrap: wrap;
+    }
 }
