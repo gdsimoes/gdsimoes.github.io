@@ -58,12 +58,21 @@ p {
     text-align: center;
 }
 
+.time {
+    font-size: 18px;
+}
+
 .time-line-item {
     text-align: center;
 }
 
-.time {
-    font-size: 18px;
+.time-line-item img {
+    width: 200px;
+}
+
+#seneca-logo {
+    background-color: rgb(220, 52, 40);
+    padding: 46px 10px;
 }
 
 .title {
