@@ -44,6 +44,7 @@ p {
     text-align: center;
 }
 
+/* About me */
 .timeline-item {
     display: flex;
     flex-direction: column;
@@ -67,22 +68,20 @@ p {
     font-size: 22px;
 }
 
+/* Projects */
+.project {
+    width: 400px;
+}
+
 .project-title {
+    text-align: center;
+    padding: 15px 0;
     color: white;
-    background-color: rgb(48, 56, 65);
+    background-color: rgb(69, 86, 125);
 }
 
 .project-title h3 {
     margin: 0;
-}
-
-/* .project-title p {
-    margin: 0;
-} */
-
-/* Remove whitespace below image */
-.project img {
-    display: block;
 }
 
 #hero {
