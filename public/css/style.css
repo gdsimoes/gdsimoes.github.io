@@ -1,13 +1,3 @@
-/* More intuitive box-sizing */
-html {
-    box-sizing: border-box;
-}
-*,
-*:before,
-*:after {
-    box-sizing: inherit;
-}
-
 html {
     scroll-behavior: smooth;
     font-family: "Open Sans", sans-serif;
@@ -40,10 +30,6 @@ nav a:hover {
     background-color: rgb(69, 86, 125);
 }
 
-img {
-    max-width: 100%;
-}
-
 h2 {
     font-size: 40px;
     text-align: center;
@@ -58,15 +44,17 @@ p {
     text-align: center;
 }
 
-.time {
-    font-size: 18px;
+.timeline-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.time-line-item {
-    text-align: center;
+.timeline-item h3 {
+    margin: 5px;
 }
 
-.time-line-item img {
+.timeline-item img {
     width: 200px;
 }
 
@@ -75,8 +63,26 @@ p {
     padding: 46px 10px;
 }
 
-.title {
+.timeline-title {
     font-size: 22px;
+}
+
+.project-title {
+    color: white;
+    background-color: rgb(48, 56, 65);
+}
+
+.project-title h3 {
+    margin: 0;
+}
+
+/* .project-title p {
+    margin: 0;
+} */
+
+/* Remove whitespace below image */
+.project img {
+    display: block;
 }
 
 #hero {
