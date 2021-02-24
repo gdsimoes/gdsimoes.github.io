@@ -119,3 +119,14 @@ p {
         flex-wrap: wrap;
     }
 }
+
+/* footer */
+.contact-icons {
+    display: flex;
+    justify-content: space-around;
+    font-size: 4.5rem;
+}
+
+.contact-icons a {
+    color: rgb(69, 86, 125);
+}
