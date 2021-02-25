@@ -35,12 +35,13 @@ It is necessary because the fixed header
 takes some of the space. I can break some
 links though. */
 .anchor {
-    padding-top: 30px;
+    padding-top: 20px;
 }
 
 h2 {
     font-size: 40px;
     text-align: center;
+    /* margin: 0; */
 }
 
 p {
@@ -77,8 +78,19 @@ p {
 }
 
 /* Projects */
+#projects {
+    background-color: rgb(238, 238, 238);
+}
+
 .project {
-    width: 400px;
+    max-width: 400px;
+    margin: 20px 0;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .project-title {
