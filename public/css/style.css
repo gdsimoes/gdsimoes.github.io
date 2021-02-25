@@ -30,6 +30,14 @@ nav a:hover {
     background-color: rgb(69, 86, 125);
 }
 
+/* This makes room for the headings.
+It is necessary because the fixed header
+takes some of the space. I can break some
+links though. */
+.anchor {
+    padding-top: 30px;
+}
+
 h2 {
     font-size: 40px;
     text-align: center;
