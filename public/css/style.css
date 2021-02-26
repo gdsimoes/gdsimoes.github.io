@@ -163,3 +163,7 @@ p {
 .contact-icons a {
     color: rgb(69, 86, 125);
 }
+
+footer {
+    text-align: center;
+}
