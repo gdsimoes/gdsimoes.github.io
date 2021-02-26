@@ -41,7 +41,6 @@ links though. */
 h2 {
     font-size: 40px;
     text-align: center;
-    /* margin: 0; */
 }
 
 p {
@@ -50,31 +49,45 @@ p {
 }
 
 .section-text {
+    max-width: 800px;
     text-align: center;
+    margin: 0 auto;
 }
 
 /* About me */
+.timeline {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
 .timeline-item {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 400px;
+    margin: 20px 0;
 }
 
 .timeline-item h3 {
     margin: 5px;
 }
 
-.timeline-item img {
-    width: 200px;
-}
+/* .timeline-item img {
+    max-height: 215px;
+    object-fit: cover;
+} */
 
 #seneca-logo {
     background-color: rgb(220, 52, 40);
-    padding: 46px 10px;
+    padding: 99px 130px;
+    /* width: 400px;
+    height: 230px; */
 }
 
 .timeline-title {
     font-size: 22px;
+    text-align: center;
 }
 
 /* Projects */
