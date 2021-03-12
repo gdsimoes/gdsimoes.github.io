@@ -4,7 +4,6 @@ html {
 }
 
 nav {
-    /* background-color: rgb(190, 49, 68); */
     background-color: rgb(80, 100, 150);
     height: 50px;
     width: 100%;
@@ -32,7 +31,7 @@ nav a:hover {
 
 /* This makes room for the headings.
 It is necessary because the fixed header
-takes some of the space. I can break some
+takes some of the space. It can break some
 links though. */
 .anchor {
     padding-top: 20px;
@@ -73,31 +72,22 @@ p {
     margin: 5px;
 }
 
-/* .timeline-item img {
-    max-height: 215px;
-    object-fit: cover;
-} */
-
-#seneca-logo {
-    background-color: rgb(220, 52, 40);
-    padding: 99px 130px;
-    /* width: 400px;
-    height: 230px; */
+.timeline-item figcaption {
+    text-align: center;
 }
 
 .timeline-title {
     font-size: 22px;
-    text-align: center;
+}
+
+#seneca-logo {
+    background-color: rgb(220, 52, 40);
+    padding: 99px 130px;
 }
 
 /* Projects */
 #projects {
     background-color: rgb(238, 238, 238);
-}
-
-.project {
-    max-width: 400px;
-    margin: 20px 0;
 }
 
 .project-container {
@@ -106,15 +96,18 @@ p {
     flex-wrap: wrap;
 }
 
-.project-title {
+.project {
+    max-width: 400px;
+    margin: 20px 0;
+}
+
+.project figcaption {
     text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
     padding: 15px 0;
     color: white;
     background-color: rgb(69, 86, 125);
-}
-
-.project-title h3 {
-    margin: 0;
 }
 
 #hero {
